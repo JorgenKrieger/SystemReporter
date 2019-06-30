@@ -58,10 +58,20 @@ a {
   .table thead th {
     border-bottom: 1px solid #D8D8D8; }
   .table td {
-    width: 50%; }
+    width: 50%;
+    line-height: 1.8rem;
+    padding-top: .9rem;
+    padding-bottom: .9rem; }
     .table td ul {
       padding: 0;
       list-style: none; }
+      .table td ul li {
+        line-height: 1.4;
+        padding: .5em 0; }
+        .table td ul li:first-child {
+          padding-top: 0; }
+  .table tr:first-child td {
+    padding-top: 3.4rem; }
 
 .export {
   text-align: center;
