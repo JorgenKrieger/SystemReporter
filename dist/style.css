@@ -1,0 +1,98 @@
+html {
+  font-size: 62.5%; }
+
+* {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  text-rendering: optimizeLegibility; }
+
+h1, h2 {
+  font-family: "SF Pro Display";
+  font-size: 3.6rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem; }
+  h1 strong, h2 strong {
+    font-weight: 600; }
+
+p {
+  font-family: "SF Pro Text";
+  font-size: 1.8rem;
+  color: rgba(36, 36, 36, 0.65);
+  line-height: 2.4rem;
+  margin-bottom: 0; }
+
+th {
+  font-family: "SF Pro Display";
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #242424; }
+
+td {
+  font-family: "SF Pro Text";
+  font-size: 1.4rem;
+  line-height: 3.6rem;
+  color: #242424; }
+  td:first-child {
+    font-weight: 700; }
+
+a {
+  color: #409CFC;
+  text-decoration: underline;
+  display: inline-block; }
+
+.container-fluid .row {
+  background: #FAFAFA;
+  border-radius: 5px;
+  margin: 2rem 0 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center; }
+
+.table {
+  margin-top: 10rem; }
+  .table th,
+  .table td {
+    border-top: none; }
+  .table thead th {
+    border-bottom: 1px solid #D8D8D8; }
+  .table td {
+    width: 50%; }
+    .table td ul {
+      padding: 0;
+      list-style: none; }
+
+.export {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 7.5rem; }
+  .export button {
+    font-family: "SF Pro Text";
+    font-size: 1.3rem;
+    letter-spacing: -.08;
+    color: #FFFFFF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6CB3FA), to(#067DFF));
+    background-image: linear-gradient(180deg, #6CB3FA 0%, #067DFF 100%);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15);
+    border-radius: 3.5px;
+    padding: .8rem 2rem; }
+
+footer {
+  background: #323232;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 2rem; }
+  footer p {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.65);
+    text-align: center; }
+    footer p a {
+      font-weight: 700;
+      color: #FFFFFF; }
+
+.alert-warning {
+  margin-top: 2rem;
+  padding: 2rem;
+  font-size: 1.4rem; }
+
